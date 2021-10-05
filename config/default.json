@@ -1,0 +1,22 @@
+{
+	"port": 3000,
+	"db": {
+		"host": "localhost",
+		"user": "",
+		"password": "",
+		"database": "",
+		"connectTimeout": 1500,
+		"charset": "utf8"
+	},
+	"pbx":{
+		"url":"https://www.015pbx.net",
+		"userName":"virtual_numbers_api",
+		"password":""
+	},
+	"secretKey":"nickname-proJs",
+	"system":{
+		"userName":"tomer123",
+		"password":"123456789"
+	}
+
+}

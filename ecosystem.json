@@ -1,0 +1,16 @@
+{
+	"apps": [
+		{
+			"name": "sim-sharge-server",
+			"script": "src/index.js",
+			"instances": 2,
+			"exec_mode": "cluster",
+			"env_production": {"NODE_ENV": "production"},
+			"log_date_format": "YYYY-MM-DD HH:mm Z",
+			"min_uptime": 3000,
+			"listen_timeout": 10000,
+			"kill_timeout": 5000,
+			"post_update": [ "npm install" ]
+		}
+	]
+}
